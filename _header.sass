@@ -1,0 +1,226 @@
+.header
+  border: 1px solid #ececec
+  box-sizing: border-box
+  background-color: #ffffff
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17)
+  height: 100px
+
+.btn:hover
+  opacity: 0.6
+
+.btn:active
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+
+.btn-menu:hover
+  opacity: 0.7
+
+.btn-menu:active
+  border: none
+  color: #ef5b70
+
+.header-flex
+  display: flex
+  height: 100%
+  justify-content: space-between
+
+.header-left
+  display: flex
+  align-items: center
+
+.logo>img
+  margin-right: 13px
+  width: 59px
+  height: 51px
+
+.logo
+  display: flex
+  align-items: center
+  color: #222222
+  font-size: 27px
+  font-weight: 300
+  line-height: 32px
+  text-decoration: none
+
+.logo span
+  color: #f16d7f
+  font-weight: 900
+
+.form-search
+  display: flex
+  margin-left: 52px
+
+.form-search details
+  border-radius: 3px 0 0 3px
+  border: 1px solid #e6e6e6
+  background: #cdcdcc linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%)
+  box-sizing: border-box
+  position: relative
+
+.form-search details summary
+  display: block
+  padding: 10px
+  width: 70px
+  height: 18px
+
+.form-search details .in-browse
+  list-style: none
+  background-color: white
+  position: absolute
+  z-index: 1
+
+.form-search details .in-browse li
+  padding: 5px 10px
+
+.form-search details .in-browse a
+  text-decoration: none
+  color: #222222
+
+.form-search details:hover summary, .form-search details .in-browse li:hover a
+  color: #f16d7f
+
+.form-search .in-browse li:active a
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8)
+
+.form-search details:active
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+
+.form-search input[type="search"]
+  border-bottom-right-radius: 3px
+  border-top-right-radius: 3px
+  border: 1px solid #e6e6e6
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 279px
+  height: 40px
+  color: #a4a4a4
+  font-size: 14px
+  font-weight: 300
+  line-height: 32px
+  text-align: left
+  padding-left: 15px
+
+.form-search button
+  border-bottom-right-radius: 3px
+  border-top-right-radius: 3px
+  border: 1px solid #e6e6e6
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 40px
+  height: 40px
+
+.header-right
+  display: flex
+  align-items: center
+
+.cart
+  margin-right: 26px
+
+.my-account
+  background-color: #f16d7f
+  width: 130px
+  height: 38px
+  color: #ffffff
+  font-size: 15px
+  font-weight: 400
+  line-height: 32px
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.menu
+  display: flex
+  justify-content: center
+
+.menu li
+  list-style: none
+  position: relative
+
+.menu li:hover .mega-box
+  display: flex
+
+.menu>li>a
+  display: block
+  padding: 19px
+  color: #222222
+  font-size: 14px
+  font-weight: 700
+  line-height: 26px
+  text-align: left
+  text-decoration: none
+  text-transform: uppercase
+
+.menu .active-menu
+  border-bottom: 3px solid #ef5b70
+  padding-bottom: 16px
+
+.mega-box
+  border: 1px solid #ececec
+  border-radius: 5px
+  background-color: #ffffff
+  padding: 10px 20px
+  position: absolute
+  display: none
+  top: 55px
+  left: -10px
+
+.mega-box:before
+  content: ""
+  display: block
+  width: 16px
+  height: 16px
+  position: absolute
+  background-color: #ffffff
+  top: -9px
+  left: 35px
+  transform: rotate(45deg)
+  border-top: 1px solid #ececec
+  border-left: 1px solid #ececec
+
+.mega-flex
+  margin-right: 46px
+
+.mega-flex:last-of-type
+  margin-right: 0
+
+.mega-flex h3
+  border-bottom: 1px solid #e8e8e8
+  width: 235px
+  padding-bottom: 8px
+  margin-bottom: 10px
+  margin-top: 10px
+  color: #232323
+  font-size: 14px
+  font-weight: 400
+  transform: scaleX(1.0015)
+  text-transform: uppercase
+
+.mega-menu
+  margin-bottom: 10px
+
+.mega-menu a
+  color: #646464
+  font-size: 14px
+  font-weight: 400
+  line-height: 28px
+  transform: scaleX(1.0015)
+  text-decoration: none
+
+.mega-menu a:hover
+  color: #f16d7f
+
+.mega-menu li .sale-text
+  margin-top: 10px
+  background: url("img/mega-menu.jpg") no-repeat
+  width: 255px
+  height: 118px
+  position: relative
+
+.mega-menu .sale-text .text
+  color: #ffffff
+  font-size: 22px
+  font-weight: 900
+  line-height: 28px
+  text-transform: uppercase
+  position: absolute
+  top: 50%
+  left: 70%
